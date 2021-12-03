@@ -32,6 +32,7 @@ function AboutMe () {
             <p className='photo-text'>SnowBoarding at Tahoe!</p>
           </div>
 
+
         </div>
 
       </div>
