@@ -1,0 +1,26 @@
+.contact {
+  max-width: 675px;
+
+  margin-left: 140px;
+  margin-right: auto;
+  display: block;
+
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.contact-message {
+  line-height: 175%;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  padding-top:8px;
+}
+
+@media screen and (max-width: 917px) {
+  .contact {
+    margin-left: 0;
+  }
+}

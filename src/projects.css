@@ -1,0 +1,41 @@
+.projects {
+
+}
+
+.projects-text {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.projects-title-container {
+  margin-bottom: 50px;
+}
+.projects-container {
+  line-height: 175%;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+
+}
+.projects-para {
+  line-height: 175%;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  padding-top:8px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #4b6cc1;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.github-link:hover {
+  color: black;
+
+}
+
+
+
+
+

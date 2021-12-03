@@ -1,0 +1,40 @@
+.about-me {
+  margin-left: 140px;
+  margin-right: auto;
+  max-width: 668px;
+  display: block;
+  padding: 50px 0;
+}
+.about-me-text {
+  line-height: 175%;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.about-me-photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding:20px;
+  margin-right: 40px;
+}
+/* .photo-item {
+  margin: 0 35px;
+} */
+.about-me-photo {
+  width: 230px;
+  height: 230px;
+
+}
+.photo-text {
+  text-align: center;
+  font-size: 0.7em;
+  color: rgb(167, 167, 162);
+  font-style: italic;
+}
+
+@media screen and (max-width: 1025px) {
+  .about-me {
+    margin-left: 0;
+  }
+}

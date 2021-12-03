@@ -1,0 +1,96 @@
+.form-row {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form-field {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+
+}
+.form-label {
+  color: rgba(129, 126, 126, 0.945);
+  font-weight: 600;
+  letter-spacing: 0.115rem;
+}
+
+.form-input {
+  height: 35px;
+  margin-top:10px;
+  border: 1px solid #c4c4c4;
+  transition: .3s;
+  padding: 8px;
+  outline: none;
+}
+.form-required {
+  color:#cc5747;
+}
+
+
+.form-input:hover {
+  border: 1px solid black;
+  transition: .3s;
+}
+.form-field-textarea{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-textarea {
+  height: 100px;
+  border: 1px solid #c4c4c4;
+  transition: .3s;
+  padding: 8px;
+  outline: none;
+}
+
+.form-textarea:hover {
+  border: 1px solid black;
+  transition: .3s;
+}
+.form-button {
+  background-color: #4b6cc1;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 1000px;
+  border: 1px solid #4b6cc1;
+  padding: 17px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.form-button:hover {
+  color: #4b6cc1;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.form-message {
+  margin-left: 20px;
+  letter-spacing: 0.115rem;
+}
+
+@media screen and (max-width: 1008px) {
+  .form-field {
+    width: 100%;
+  }
+  .form-label {
+    margin-top:30px;
+  }
+  .form-row {
+    margin-bottom: 0;
+  }
+  .form-row-button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .form-message {
+    margin-top: 30px;
+  }
+}
