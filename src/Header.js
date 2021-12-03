@@ -21,7 +21,7 @@ function Header () {
 
         <Link to='/projects' className='header-menu-item header-menu-project'>PROJECTS</Link>
 
-        <a className="header-menu-item header-menu-work" href="/" target="_blank">RESUME</a>
+        <a className="header-menu-item header-menu-work" href="./eddieyeung.pdf" target="_blank">RESUME</a>
 
         <Link to='/contact' className='header-menu-item header-menu-contact'>CONTACT</Link>
 

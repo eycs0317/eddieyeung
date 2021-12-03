@@ -6,9 +6,12 @@ function AboutMe () {
     <div className='about-me'>
       <div className='about-me-content'>
         <h1>Hi, I'm Eddie</h1>
-        <p className='about-me-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?</p>
-        <p className='about-me-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?</p>
-        <p className='about-me-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?</p>
+        <p className='about-me-text'>I'm a Web Developer from Bay Area, CA. I'm currently look for my first software development job.
+      After 16 years of working Automotive field of helping client/tech to diagnose and repair their vehicle.
+      I decide to have a career switch to Web development.</p>
+        <p className='about-me-text'>From Self Study, Online course and Bootcamp - I have done it all! I found that coding is fun and I really enjoy the 'Aha' moment!</p>
+        <p className='about-me-text'>In my space time i enjoy learn new things and enjoy the outdoor!
+If u need to reach me, You can send me a message at the Contact page.</p>
         <div className="about-me-photo-container">
 
           <div className="photo-item">
@@ -37,18 +40,13 @@ function AboutMe () {
 
       </div>
       {/* <p>
-      1.pass - background, school
-      2.current - keep learning
+      I'm a Web developer from Bay Area, CA. I'm currently look for my first dev job.
+      After 16 years of working Automotive field of helping client/tech to diagnose and repair their vehicle.
+      I decide to have a career switch to Web development, from self study, online course and bootcamp - done it all
+      I found that coding is fun and i really enjoy the 'Aha' moment! - enjoy learn new things
+      In my space time i enjoy learn new things and enjoy the outdoor!
 
-      After working 16 years in Automotive field.
-      after 16 year of automotive
-      try something different
-      enjoy learning new thing
-      from bay area,ca
-      enjoy the outdoor
-
-      currently practicing on what i learn from the bootcamp and building things, improving my skill
-      if u need to find me, message me on linkedin
+      if u need to reach me, U can send me a message at the Contact page.
         </p> */}
     </div>
   )
