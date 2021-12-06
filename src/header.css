@@ -43,8 +43,9 @@
   color:#5d5e61;
   padding-right: 10px;
 }
-.header-menu-item:hover {
+.header-menu-item:hover , .header-name:hover {
   color:#4b6cc1;
+
 }
 
 

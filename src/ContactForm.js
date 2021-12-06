@@ -36,7 +36,7 @@ function ContactForm () {
             setEmailSent(false)
           },2000)
       } else {
-        if(!isValidEmail(email)) {
+        if(!isValidEmail(email) && name && message ) {
           alert('Invalid Email')
         } else {
           alert('Please fill in all fields.');
