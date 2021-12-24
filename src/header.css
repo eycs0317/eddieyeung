@@ -45,7 +45,12 @@
 }
 .header-menu-item:hover , .header-name:hover {
   color:#4b6cc1;
+  text-decoration: underline;
 
+}
+
+.header-section {
+  padding-bottom: 10px;
 }
 
 
